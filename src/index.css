@@ -1,13 +1,14 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Ensure Tailwind CSS is installed and configured */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  @apply text-gray-800;
+  color: #2d3748; /* Equivalent to text-gray-800 in Tailwind CSS */
 }
 
 /* Smooth scroll para navegação */
